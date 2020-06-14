@@ -1,13 +1,16 @@
 import React, { Component } from "react";
 import { Link } from "react-router-dom";
+import logo from "../muldoonsTempLogo.jpg";
 
 const NavBar = () => {
   return (
-    <nav className="navbar navbar-expand-sm navbar-dark bg-dark">
+    <nav className="navbar navbar-expand-sm navbar-dark bg-dark sticky-top">
       <Link to="/" className="navbar-brand">
+        <img src={logo} alt="logo" style={{ width: "40px" }}></img>
         Muldoon's Pizza
       </Link>
-      <ul className="navbar-nav">
+
+      <ul className="navbar-nav ml-auto">
         <li className="nav-item">
           <Link to="/gallery" className="nav-link">
             Gallery
