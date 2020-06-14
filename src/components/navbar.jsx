@@ -6,7 +6,7 @@ const NavBar = () => {
   return (
     <nav className="navbar navbar-expand-sm navbar-dark bg-dark sticky-top">
       <Link to="/" className="navbar-brand">
-        <img src={logo} alt="logo" style={{ width: "40px" }}></img>
+        <img src={logo} alt="" width="30" height="30" loading="lazy"></img>
         Muldoon's Pizza
       </Link>
 
