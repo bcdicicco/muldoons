@@ -1,24 +1,23 @@
-.overrides .carousel-indicators {
-  background-color: black;
-  margin-left: 25%;
-  margin-right: 25%;
-  margin-bottom: 0;
-  width: 50%;
-  bottom: 0;
-}
-
 .overrides .carousel-control-next {
   right: 10%;
+}
+
+.overrides .carousel-control-next-icon {
+  width: 30px;
+  height: 30px;
 }
 
 .overrides .carousel-control-prev {
   left: 10%;
 }
 
+.overrides .carousel-control-prev-icon {
+  width: 30px;
+  height: 30px;
+}
 .carousel-control-next,
 .carousel-control-prev {
   filter: invert(100%);
-  margin: auto;
 }
 
 .overrides .carousel-inner img {

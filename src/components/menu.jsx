@@ -12,7 +12,7 @@ class Menu extends Component {
   render() {
     return (
       <div className="overrides">
-        <Carousel interval={null} fade={true}>
+        <Carousel interval={null} fade={true} indicators={false}>
           <Carousel.Item>
             <img className="d-block w-50" src={cover} alt="" />
           </Carousel.Item>
