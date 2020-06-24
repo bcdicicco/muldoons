@@ -5,7 +5,7 @@ import { Nav, Navbar, NavItem } from "react-bootstrap";
 
 const NavBar = () => {
   return (
-    <Navbar bg="dark" variant="dark">
+    <Navbar className="sticky-top navbar-expand-sm" bg="dark" variant="dark">
       <Navbar.Brand>
         {" "}
         <Link to="/" className="navbar-brand">
@@ -26,7 +26,7 @@ const NavBar = () => {
         </NavItem>
         <NavItem>
           <Link to="/info" className="nav-link">
-            Info and Contact
+            Info
           </Link>
         </NavItem>
       </Nav>

@@ -1,3 +1,6 @@
-#Deck1 {
+#Deck1,
+#Deck2,
+#Deck3 {
   margin: auto;
+  margin-bottom: 25px;
 }

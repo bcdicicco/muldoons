@@ -19,7 +19,3 @@
 .carousel-control-prev {
   filter: invert(100%);
 }
-
-.overrides .carousel-inner img {
-  margin: auto;
-}

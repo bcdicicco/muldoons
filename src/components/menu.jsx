@@ -11,22 +11,22 @@ class Menu extends Component {
   state = {};
   render() {
     return (
-      <div className="overrides">
+      <div className="overrides container-fluid">
         <Carousel interval={null} fade={true} indicators={false}>
           <Carousel.Item>
-            <img className="d-block w-50" src={cover} alt="" />
+            <img className="mx-auto d-block w-50" src={cover} alt="" />
           </Carousel.Item>
           <Carousel.Item>
-            <img className="d-block w-50" src={appetizer} alt="" />
+            <img className="mx-auto d-block w-50" src={appetizer} alt="" />
           </Carousel.Item>
           <Carousel.Item>
-            <img className="d-block w-50" src={dinners} alt="" />
+            <img className="mx-auto d-block w-50" src={dinners} alt="" />
           </Carousel.Item>
           <Carousel.Item>
-            <img className="d-block w-50" src={special} alt="" />
+            <img className="mx-auto d-block w-50" src={special} alt="" />
           </Carousel.Item>
           <Carousel.Item>
-            <img className="d-block w-50" src={toppings} alt="" />
+            <img className=" mx-auto d-block w-50" src={toppings} alt="" />
           </Carousel.Item>
         </Carousel>
       </div>
