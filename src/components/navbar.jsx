@@ -1,6 +1,6 @@
 import React, { Component } from "react";
 import { Link } from "react-router-dom";
-import logo from "../muldoonsTempLogo.jpg";
+import logo from "../muldoonsLogo.png";
 import { Nav, Navbar, NavItem } from "react-bootstrap";
 
 const NavBar = () => {
@@ -9,7 +9,7 @@ const NavBar = () => {
       <Navbar.Brand>
         {" "}
         <Link to="/" className="navbar-brand">
-          <img src={logo} alt="" width="30" height="30" loading="lazy"></img>
+          <img src={logo} alt="" width="50" height="50" loading="lazy"></img>
           Muldoon's Pizza
         </Link>
       </Navbar.Brand>
