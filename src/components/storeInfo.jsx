@@ -15,7 +15,6 @@ class StoreInfo extends Component {
         <table
           id="hoursTable"
           className="table table-dark table-sm"
-          style={{ width: "20vw", float: "right" }}
         >
           <caption style={{ captionSide: "top", textAlign: "center" }}>
             Restaurant Hours

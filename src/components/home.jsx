@@ -1,14 +1,34 @@
 import React, { Component } from "react";
 import { faBaby } from "@fortawesome/free-solid-svg-icons";
 import { FacebookProvider, Page } from 'react-facebook';
+import { Jumbotron } from "react-bootstrap";
+import Carousel from "react-bootstrap/Carousel";
+import "../css/home.css";
+import bbq from "../bbqChicken.jpg";
+import meat from "../meatPizza.jpg";
 
 export default class Home extends Component {
   render() {
     return (
-      <div>
-      <FacebookProvider appId="270108797657439">
-        <Page href="https://www.facebook.com/muldoonslondon" tabs="timeline" />
-      </FacebookProvider>
+      <div id="fullPage">
+        <div id="imageCarousel">
+          <Carousel interval={5000} fade={false} indicators={true}>
+            <Carousel.Item>
+              <img className="mx-auto d-block w-50" src={bbq} alt="" />
+            </Carousel.Item>
+            <Carousel.Item>
+              <img className="mx-auto d-block w-50" src={meat} alt="" />
+            </Carousel.Item>
+            <Carousel.Item>
+              <img className="mx-auto d-block w-50" src={bbq} alt="" />
+            </Carousel.Item>
+          </Carousel>
+        </div>
+        <div id="fbFeed">
+          <FacebookProvider appId="270108797657439">
+            <Page href="https://www.facebook.com/muldoonslondon" tabs="timeline" />
+          </FacebookProvider>
+        </div>
       </div>
     );
   }
