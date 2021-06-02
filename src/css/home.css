@@ -11,14 +11,14 @@
 #imageCarousel {
   float: center;
   width: 50vw;
-  margin: 20px 20px 0px 20px;
+
   background-color: aqua;
 }
 
 #fbFeed {
   float: center;
   width: 50vw;
-  margin: 20px 20px 0px 20px;
+
   padding-left: 12.5%;
   background-color: #da3e17;
 }
@@ -30,7 +30,6 @@
   background-position: center;
   position: relative;
   height: 35vh;
-  margin: 20px 20px 20px 20px;
 }
 
 #history::before {
@@ -40,11 +39,23 @@
   right: 0px;
   bottom: 0px;
   left: 0px;
-  background-color: rgba(0, 0, 0, 0.2);
+  background-color: rgba(0, 0, 0, 0.35);
 }
-h1 {
+
+#historyText {
+  position: relative;
+  text-align: center;
+  color: #f8f8ff;
+  width: 40%;
+  margin: auto;
+  text-align: center;
+  padding: 30px 0px 00px 0px;
+}
+
+#historyTitle {
   font-size: large;
   font-weight: bold;
   margin: 0 auto;
   text-align: center;
+  padding: 30px 0px 0px 0px;
 }

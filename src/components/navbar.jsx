@@ -15,6 +15,11 @@ const NavBar = () => {
       </Navbar.Brand>
       <Nav className="ml-auto">
         <NavItem>
+          <Link to="/" className="nav-link">
+            Home
+          </Link>
+        </NavItem>
+        <NavItem>
           <Link to="/gallery" className="nav-link">
             Gallery
           </Link>

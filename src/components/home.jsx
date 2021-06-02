@@ -13,7 +13,10 @@ export default class Home extends Component {
     return (
       <div id="fullPage">
         <section id="history">
-          <h1>Muldoon's Pizza</h1>
+          <h1 id="historyTitle">OUR HISTORY</h1>
+          <p id="historyText">Muldoon's Pizza is a family owned and operated Italian restaurant serving London since 1977. First opened by John DiCicco, it
+            has since been taken over by his eldest son, Dean DiCicco. We proudly continue to serve London our same famous family recipes and signature pizza.
+          </p>
         </section>
         <section id="dualColumns">
           <div id="imageCarousel">

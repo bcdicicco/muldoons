@@ -64,7 +64,7 @@ class StoreInfo extends Component {
           target="_blank"
           rel="noopener noreferrer"
         >
-          <FontAwesomeIcon icon={faFacebook} />
+          <FontAwesomeIcon icon={faFacebook} size='2x' />
         </a>
 
         <p>Phone Number: (519) 471-0607</p>
