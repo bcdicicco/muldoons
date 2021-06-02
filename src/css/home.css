@@ -1,20 +1,50 @@
 #fullPage {
-  height: 100vh;
-  width: 99.1vw;
-  background-color: black;
+  background-color: #f8f8ff;
 }
-
-#fbFeed {
-  float: right;
-  margin-right: 50px;
-  margin-top: 20px;
+#dualColumns {
+  column-count: 2;
+  display: flex;
+  height: 65vh;
+  width: 99.1vw;
 }
 
 #imageCarousel {
-  float: left;
+  float: center;
   width: 50vw;
-  margin-top: 20px;
-  margin-left: 20px;
-  margin-right: 20px;
-  margin-bottom: 20px;
+  margin: 20px 20px 0px 20px;
+  background-color: aqua;
+}
+
+#fbFeed {
+  float: center;
+  width: 50vw;
+  margin: 20px 20px 0px 20px;
+  padding-left: 12.5%;
+  background-color: #da3e17;
+}
+
+#history {
+  background-image: url("../storefront.jpg");
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
+  position: relative;
+  height: 35vh;
+  margin: 20px 20px 20px 20px;
+}
+
+#history::before {
+  content: "";
+  position: absolute;
+  top: 0px;
+  right: 0px;
+  bottom: 0px;
+  left: 0px;
+  background-color: rgba(0, 0, 0, 0.2);
+}
+h1 {
+  font-size: large;
+  font-weight: bold;
+  margin: 0 auto;
+  text-align: center;
 }
