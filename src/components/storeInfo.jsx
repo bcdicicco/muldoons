@@ -3,8 +3,8 @@ import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
 import { faCoffee } from "@fortawesome/free-solid-svg-icons";
 import { faFacebook } from "@fortawesome/free-brands-svg-icons";
 import "../css/storeInfo.css";
-import uberIcon from "../Uber-Eats-Icon.png";
-import doorDashIcon from "../doordash.png";
+import uberIcon from "../assets/Uber-Eats-Icon.png";
+import doorDashIcon from "../assets/doordash.png";
 
 class StoreInfo extends Component {
   state = {};

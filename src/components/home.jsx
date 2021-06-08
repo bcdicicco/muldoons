@@ -4,9 +4,9 @@ import { FacebookProvider, Page } from 'react-facebook';
 import { Jumbotron } from "react-bootstrap";
 import Carousel from "react-bootstrap/Carousel";
 import "../css/home.css";
-import bbq from "../bbqChicken.jpg";
-import meat from "../meatPizza.jpg";
-import storeFront from "../storefront.jpg";
+import bbq from "../assets/bbqChicken.jpg";
+import meat from "../assets/meatPizza.jpg";
+import storeFront from "../assets/storefront.jpg";
 import { Container } from "react-bootstrap";
 
 export default class Home extends Component {

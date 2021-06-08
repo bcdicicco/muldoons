@@ -1,9 +1,9 @@
 import React, { Component } from "react";
-import cover from "../menuCover.jpg";
-import appetizer from "../menuAppetizers.jpg";
-import dinners from "../menuDinners.jpg";
-import special from "../menuSpecialties.jpg";
-import toppings from "../menuToppings.jpg";
+import cover from "../assets/menuCover.jpg";
+import appetizer from "../assets/menuAppetizers.jpg";
+import dinners from "../assets/menuDinners.jpg";
+import special from "../assets/menuSpecialties.jpg";
+import toppings from "../assets/menuToppings.jpg";
 import "../css/menu.css";
 import Carousel from "react-bootstrap/Carousel";
 

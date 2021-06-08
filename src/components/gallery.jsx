@@ -1,8 +1,8 @@
 import React, { Component } from "react";
 import Card from "react-bootstrap/Card";
 import CardDeck from "react-bootstrap/CardDeck";
-import bbq from "../bbqChicken.jpg";
-import meat from "../meatPizza.jpg";
+import bbq from "../assets/bbqChicken.jpg";
+import meat from "../assets/meatPizza.jpg";
 import "../css/gallery.css";
 import { Container, Row, Col } from "react-bootstrap";
 

@@ -1,19 +1,22 @@
 import React, { Component } from "react";
 import { Link } from "react-router-dom";
-import logo from "../muldoonsLogo.png";
+import logo from "../assets/muldoonsLogo.png";
 import { Nav, Navbar, NavItem, Container } from "react-bootstrap";
 
 const NavBar = () => {
   return (
     <Container fluid>
-      <Navbar className="sticky-top navbar-expand-sm" bg="dark" variant="dark">
-        <Navbar.Brand>
+      <Navbar sticky="top" expand="md" bg="dark" variant="dark">
+      <Navbar.Brand>
           {" "}
           <Link to="/" className="navbar-brand">
             <img src={logo} alt="" width="50" height="50" loading="lazy"></img>
             Muldoon's Pizza
           </Link>
         </Navbar.Brand>
+      <Navbar.Toggle aria-controls="responsive-navbar-nav" />
+      <Navbar.Collapse id="responsive-navbar-nav">
+        
         <Nav className="ml-auto">
           <NavItem>
             <Link to="/" className="nav-link">
@@ -36,6 +39,7 @@ const NavBar = () => {
             </Link>
           </NavItem>
         </Nav>
+        </Navbar.Collapse>
       </Navbar>
     </Container>
   );
@@ -43,29 +47,3 @@ const NavBar = () => {
 
 export default NavBar;
 
-// {
-//    <nav className="navbar navbar-expand-sm navbar-dark bg-dark sticky-top">
-//       <Link to="/" className="navbar-brand">
-//         <img src={logo} alt="" width="30" height="30" loading="lazy"></img>
-//         Muldoon's Pizza
-//       </Link>
-
-//       <ul className="navbar-nav ml-auto">
-//         <li className="nav-item">
-//           <Link to="/gallery" className="nav-link">
-//             Gallery
-//           </Link>
-//         </li>
-//         <li className="nav-item">
-//           <Link to="/menu" className="nav-link">
-//             Menu
-//           </Link>
-//         </li>
-//         <li className="nav-item">
-//           <Link to="/info" className="nav-link">
-//             Info and Contact
-//           </Link>
-//         </li>
-//       </ul>
-//     </nav>
-// }
