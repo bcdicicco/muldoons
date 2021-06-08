@@ -1,41 +1,43 @@
 import React, { Component } from "react";
 import { Link } from "react-router-dom";
 import logo from "../muldoonsLogo.png";
-import { Nav, Navbar, NavItem } from "react-bootstrap";
+import { Nav, Navbar, NavItem, Container } from "react-bootstrap";
 
 const NavBar = () => {
   return (
-    <Navbar className="sticky-top navbar-expand-sm" bg="dark" variant="dark">
-      <Navbar.Brand>
-        {" "}
-        <Link to="/" className="navbar-brand">
-          <img src={logo} alt="" width="50" height="50" loading="lazy"></img>
-          Muldoon's Pizza
-        </Link>
-      </Navbar.Brand>
-      <Nav className="ml-auto">
-        <NavItem>
-          <Link to="/" className="nav-link">
-            Home
+    <Container fluid>
+      <Navbar className="sticky-top navbar-expand-sm" bg="dark" variant="dark">
+        <Navbar.Brand>
+          {" "}
+          <Link to="/" className="navbar-brand">
+            <img src={logo} alt="" width="50" height="50" loading="lazy"></img>
+            Muldoon's Pizza
           </Link>
-        </NavItem>
-        <NavItem>
-          <Link to="/gallery" className="nav-link">
-            Gallery
-          </Link>
-        </NavItem>
-        <NavItem>
-          <Link to="/menu" className="nav-link">
-            Menu
-          </Link>
-        </NavItem>
-        <NavItem>
-          <Link to="/info" className="nav-link">
-            Info
-          </Link>
-        </NavItem>
-      </Nav>
-    </Navbar>
+        </Navbar.Brand>
+        <Nav className="ml-auto">
+          <NavItem>
+            <Link to="/" className="nav-link">
+              Home
+            </Link>
+          </NavItem>
+          <NavItem>
+            <Link to="/gallery" className="nav-link">
+              Gallery
+            </Link>
+          </NavItem>
+          <NavItem>
+            <Link to="/menu" className="nav-link">
+              Menu
+            </Link>
+          </NavItem>
+          <NavItem>
+            <Link to="/info" className="nav-link">
+              Info
+            </Link>
+          </NavItem>
+        </Nav>
+      </Navbar>
+    </Container>
   );
 };
 

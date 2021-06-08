@@ -4,6 +4,7 @@ import { faCoffee } from "@fortawesome/free-solid-svg-icons";
 import { faFacebook } from "@fortawesome/free-brands-svg-icons";
 import "../css/storeInfo.css";
 import uberIcon from "../Uber-Eats-Icon.png";
+import doorDashIcon from "../doordash.png";
 
 class StoreInfo extends Component {
   state = {};
@@ -84,6 +85,9 @@ class StoreInfo extends Component {
           Dine-in and pick-up only. Delivery available to select areas through{" "}
           <a href="https://www.ubereats.com/ca/london-ont/food-delivery/muldoons-pizza/0SRoKubgR5up3Y8bmk0zEQ">
             <img src={uberIcon} alt="" width="30" height="30"></img>
+          </a>
+          <a href="https://www.doordash.com/en-CA/store/muldoons-pizza-london-1696364">
+            <img src={doorDashIcon} alt="" width="40" height="30"></img>
           </a>
         </p>
       </div>
